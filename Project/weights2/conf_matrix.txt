@@ -1,0 +1,4 @@
+results = confusion_matrix(Y_test, numpy.around(model.predict(X_test) , decimals=0))
+print(results)
+[[11161  1531]
+ [ 4426  2882]]

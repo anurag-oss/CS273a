@@ -1,0 +1,5 @@
+Best: 0.690494 using {'batch_size': 10}
+0.690494 (0.002073) with: {'batch_size': 10}
+0.687050 (0.002021) with: {'batch_size': 20}
+0.687950 (0.002818) with: {'batch_size': 30}
+0.689422 (0.001594) with: {'batch_size': 50}

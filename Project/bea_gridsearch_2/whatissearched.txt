@@ -1,0 +1,14 @@
+I have searched for 
+
+batch size:- 10, 20, 30, 50
+epoch_size:- 20
+
+What i have kept constant:
+weight initialization : normal
+the number of nodes in the layers : 14, 8 , 1
+no dropouts
+activation function was fixed : relu
+
+
+Conclusion:
+we got the best result for batch size 10

@@ -1,0 +1,20 @@
+I have searched for 
+activation funct :- sigmoid, tanh, relu
+batch size:- 50, 100, 200, 300, 400
+epoch_size:- 10, 20 , 50
+
+
+What i have kept constant:
+weight initialization : normal
+the number of nodes in the layers : 14, 8 , 1
+no dropouts
+
+
+Conclusion:
+sigmoid activation function was not great. relu and tanh were almost at par.
+Smaller batch size is good
+Higher epoch was good
+
+The best result was for batch size of 50, epoch of 50 and tanh as activation function
+The acuracy was 0.691900
+In the next step we will fix relu as activation function, increase the epochs and decrease the batch-size
